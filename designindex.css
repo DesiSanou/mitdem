@@ -1,0 +1,384 @@
+/*	header
+{
+	background: url("imagesprojet/collaboration.jpg") repeat;
+	height: 160px;
+
+
+}*/
+ body
+ {
+ 	background: url("imagesprojet/fond6.jpg") repeat scroll ;
+ 	background-image: linear-gradient(to bottom, white,rgb(109,122,146));
+    margin:10px 50px;
+
+ }
+
+ul{
+	list-style-type: none;
+	}
+	nav{
+		display:flex;
+
+	}
+	.elemententete
+{
+	width: 100%;
+	height: 68px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	border: solid rgba(242,109,79,1) hidden;
+	border-radius: 2px;
+	background-color: rgba(242,109,79,1);
+	/*position: fixed;
+     top: 0%;*/
+     
+	visibility:visible;
+}
+ 
+nav a{
+		font: bold  12pt;
+		font-family: helvetica arial sans-serif;
+		 border-top: solid 5px #800000;
+           display: flex;
+           height: 25px;
+           /*border-radius: 20px;*/
+           padding-top: 20px;
+           margin-right:1.5px;
+           position: relative;
+           color: #606060;
+           /*transform-origin: 50% 50%;*/
+          text-decoration: none;
+          clear: none;
+           transition: all 0.5s ease;
+}
+nav a:hover{
+           display: flex;
+           border: solid 1px gray;
+           border-left: solid 5px #800000;
+           border-radius: 10px;
+           padding: 20px;
+           color: #DB4F4F ;
+           background-color: rgb(89,94,140);
+           box-shadow: 1px;
+           transform-origin: 0% 0%;
+          text-decoration: none;
+           clear: both;
+           transition: all 0.5s ease;
+
+	}
+	nav>a:first-child{
+		padding-top: 0px;
+		background-image: "imagesprojet/logomitdem.jpg"
+
+	}
+	nav>a:last-child{
+		position: absolute;
+ 	    right:5%;
+ 	    border-radius: 0px;
+          padding-top: 5px;
+		font: bold  12pt;
+		font-family: helvetica arial sans-serif;
+		 border-top: solid 0px #800000;
+           display: flex;
+           height: 25px;
+          text-decoration: none;
+          clear: none;
+
+	}
+	nav>a:first-child:hover{
+           border: hidden 1px red;
+            background-color: rgba(242,109,79,1);
+           border-top: solid 5px #800000;
+           border-left: solid 5px #800000;
+           border-radius: 2px;
+           padding: 4px;
+           color: #DB4F4F ;
+      
+           box-shadow: 0.2px;
+           transform-origin: 0% 0%;
+          text-decoration: none;
+           clear: both;
+           transition: all 0.5s ease;
+      
+	}
+	nav>a:last-child:hover{
+           position: absolute;
+ 	    right:5%;
+ 	    background-color: rgba(242,109,79,1);
+ 	    border-radius: 0px;
+          padding-top: 5px;
+		font: bold  12pt;
+		color: #DB4F4F ;
+		font-family: helvetica arial sans-serif;
+		 border-top: solid 0px #800000;
+           border-left: solid 0px #800000;
+           display: flex;
+           height: 25px;
+           box-shadow: none;
+           transform-origin: none;
+          text-decoration: none;
+           clear: both;
+           transition: all 0.8s ease;
+      
+	}
+
+	.inscrit /*design inscription*/
+ {
+	{
+		
+		text-decoration: none;
+		display: inline-block;
+		position: absolute;
+ 	right:240px;
+ 	margin-right: 10px;
+	}
+	
+	 .rech   /*design barre de recherche*/
+ {
+ 	position: absolute;
+ 	right:10px;
+ 	margin-right: 10px;
+ 	 border-radius: 20px;
+           padding-top: 20px;
+ }
+ section
+ {
+ 	display: inline;
+ }
+ 
+
+ }
+/*p>img{
+	float: left;
+}*/
+
+/*========================================*/
+.presentation1 /*presentation mit-dem*/
+{
+ float: left;
+	width: 50%;
+	border: solid 1pt gray ;
+	border-right: solid 5pt #FF8080;
+	border-left: solid 5pt #FF8080;  
+	margin-top: 60px;
+	margin-left: 5px;
+	padding-left: 2px;
+	font: 12pt helvetica;
+}
+.presentation2  /*presentation inscrivez vous dans nos univ...*/
+{
+
+	width: 50%;
+	border: solid 1pt hidden ;
+	border-right: solid 0pt #FF8080;
+	border-left: solid 5pt #FF8080; 
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-left: 2px;
+	padding-right: 5px;
+	font: 12pt helvetica ;
+	text-indent: 10px;
+}
+.inscriform   /*pour formulaire d'inscription*/
+{
+   width: 50%;
+   border: solid 0.5px gray;
+   border-radius:0px 20px 20px 0px;
+	background-color: white ;/*#e0e0e0 */
+	padding-left: 5px;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+input   /*input du formulaire et de la barre de recherche*/
+{
+	    background-color: #e8dede;
+	    background-size: 160px;
+}
+
+/*=========================design pour le formulaire de contact=======================*/
+ footer   
+ {
+
+ 	position: absolute;
+ 	text-align:center;
+ 	 margin-top: 10px;    font-family: Geneva, Arial, Helvetica, sans-serif;    color: rgba(205,205,203,1);    font-size: 12px;                background-color: rgba(173,47,19,1);    border-top: 5px solid rgba(173,47,19,1);               border-radius:3px ;
+     /*margin-bottom: 0px;*/
+ width: 100%;
+ /*bottom:0px;*/
+ }
+ 
+
+ /*=================design pour les elements nos offres de stages...=================*/
+ article     
+ {
+ 	display:inline;
+ 	background-color: #e0e0e0; 
+ 	margin-left: 0px;
+ 	text-decoration: bold;
+ }
+ aside>article>p
+ {
+ 	 padding-right: 50px;
+    padding-left: 120px;
+ 	display: inline-block;
+ 	height: 30px;
+ 	border-bottom: solid 0pt blue;
+	border-top: solid 0pt #FF8080;
+ }
+ aside>section
+ {
+ 	display: inline;
+ 	/*max-width: 100px;*/
+ }
+aside>article{
+	display: flex;
+}
+ aside>article>table:nth-child(1)
+ {
+    width: 30%;
+ 	margin: 0px; /*25*/
+ 	margin-right: 0px;
+ 	margin-left:0px; 
+ }
+ aside>article>table:nth-child(2)
+ {
+width: 60%;
+margin-left: 10px;
+margin-right: 10px;
+border-left: solid gray 1pt;
+
+ }
+  aside>article>table:nth-child(3)
+ {
+ border-left: solid gray 1pt;
+width: 10%;
+margin-left: 0px;
+margin-right: 0px;
+border-bottom: solid 2pt hidden;
+ }
+
+  /*===========design pour les elements qui vont  suivre nos offres...============*/
+ aside>p{
+ 	display: flex;
+ }
+ 
+/*pour regrouper les deux elements ci-dessus*/
+ aside{
+  background-attachment: fixed; background-image:url("./imagesprojet/fond3.jpg");  background-repeat: repeat; 
+ }
+ }
+
+ /*=================================design pour la liste des ecoles/entreprises qui nous font confiance=================================*/
+ aside{
+ 	display: flex;
+ }
+
+ aside>section:nth-child(2)
+ {
+ 	display: inline;
+ 	background-color: white;
+ 	border-radius:20px;
+ 	margin-right: 20px;
+ 	margin-left: 20px; 
+ }
+#rubriques{
+	position: relative;
+	padding-top:30px;
+	padding-right: 20px;
+	padding-left: 0px
+}
+
+
+
+/*==================================design pour la page trouver mon ecole============================================*/
+.rechtrouverecole{
+	background-color: rgb(230,230,250);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+/*==============design volet pedagogique=================*/
+
+
+.menu-demo2, .menu-demo2 ul{
+padding:0px;
+margin:0px;
+list-style:none;
+text-align:left;
+
+}
+.menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:4px 4px 0 0;
+}
+.menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+.menu-demo2 ul li:hover{
+border-radius:0;
+}
+.menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0px;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+.menu-demo2 li:hover ul{
+max-height:30em;
+}
+/*background des liens menus */
+.menu-demo2 li{
+background-color: #65537A;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+}
+
+/* background des liens sous menus */
+.menu-demo2 li li{
+background:#333A40;
+}
+/* background des liens menus et sous menus au survol */
+.menu-demo2 li:hover, .menu-demo2 li li:hover{
+background:#65537A;
+}
+
+/* les a href */
+.menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:4px 4px;
+color:#fff;
+font-family:arial;
+}
+.menu-demo2 ul a{
+padding:0px 0;
+}
+.menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+.menu-demo2 li:hover a, .menu-demo2 li li:hover a{
+color:#000;
+}
+
+
+/*==========================Design recruteurs========================*/
+
+
+ .designprofils{
+ 	display:flex;
+ }
+ .designprofils article span{
+    width: 50%; height: 20px;border:solid;border-radius: 5px;font-size: 14px;
+ }
