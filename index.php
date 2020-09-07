@@ -1,8 +1,8 @@
  <?php include('serveur.php');
   //On ne peut enter ici que si on est connecte
- /*if(empty($_SESSION['username'])){
+ if(empty($_SESSION['username'])){
   header('location:login.php');
- }*/
+ }
   ?> 
 <!DOCTYPEE html>
 <html>

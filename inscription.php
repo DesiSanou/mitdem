@@ -12,10 +12,10 @@
 </form>
 
          <p class="reseausocial">
-            <em>Vous avez deja un compte?    <a href="login.php" > Se connecter</a>   </em>       <br /><br />
+            <em>Vous avez déjà un compte?    <a href="login.php" > Se connecter</a>   </em>       <br /><br />
             
           <p style="background-color:white; height:30; padding-top:15"class="compteconfiance">
-            <strong style="color:#CF5513; padding-left:20;font-size:20" > Creer un compte</strong>
+            <strong style="color:#CF5513; padding-left:20;font-size:20" > Créer un compte</strong>
           
           </p>
             <!--
@@ -85,7 +85,7 @@
 
                     <label for="niveau">Veuillez charger votre CV (.pdf)</label><input type="file" placeholder=""name="CV" id="cv"  /><Br /></br>
                     <label for=""><strong style="color:#000080; margin-left:40; font-size:20">Informations complementaires</strong></label></br><TEXTAREA  type="text" name="competences" id="informationComplementaires" placeholder="competences specifiques" rows="7" cols="60"  maxlength="200" border-radius="20px" border-style: /></TEXTAREA>
-                    <Br/><Br/><em><button type = "submit" name="Enregistrer"style=" margin-left:50%;" >Enregistrer</button>
+                    <Br/><Br/><em><button type = "submit" name="Enregistrer"style=" margin-left:20%;" >Enregistrer</button>
                  </p>
             <form />
           </div>
@@ -98,16 +98,7 @@
             <?php  // on teste si les variables du formulaire sont bien déclarées 
             if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email'])&& isset($_POST['MotDepassse']) && isset($_POST['formation'])) 
             { 
-            /* // on prépare la requête pour récupérer le numero du propriétaire 
-             $sql = 'SELECT numero FROM liste_proprietaire WHERE nom = "'.$_POST['proprio'].'"';
-              // on lance la requête (mysql_query) et on impose un message d'erreur si la requête ne se passe pas bien (or die) 
-              $req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error()); 
-              // on récupère le résultat sous forme d'un tableau 
-              $data = mysql_fetch_array($req);
-              // on libère l'espace mémoire alloué pour cette interrogation de la base 
-              mysql_free_result ($req);*/
-              // on insère le tuple (mysql_query) et au cas où, on écrira un petit message d'erreur si la requête ne se passe pas bien (or die)
-              $sql = 'INSERT INTO elementsdusite.listedesmembres VALUES("","'.$_POST['nom'].'", "'.$_POST['prenom'].'", "'.$_POST['email'].'","'.$_POST['MotDepassse'].'","'.$_POST['formation'].'")';
+            $sql = 'INSERT INTO elementsdusite.listedesmembres VALUES("","'.$_POST['nom'].'", "'.$_POST['prenom'].'", "'.$_POST['email'].'","'.$_POST['MotDepassse'].'","'.$_POST['formation'].'")';
             mysql_close();
           }
   

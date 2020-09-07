@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="designindex.css" />
   <meta name="viewport" content="width-device-width" />
-  <title>Connexion a votre compte</title>
+  <title>Connexion à votre compte</title>
  </head>
  <body>
  	<?php include("entete.php") ?>
@@ -22,9 +22,9 @@
             <div class="inscriform">
                <form method="POST" action="index.php">
                   <p> 
-                  <label for="email">Email<strong style="color:red">*&nbsp</strong></label><input type="email" name="email" id="" required="required" placeholder="example TAMINI.Yves@gmail.com" size="40" maxlength="50" border-radius="2px"/> <Br /><Br />
-                    <label for="MotDePasse">Mot de passe<strong style="color:red">*&nbsp</strong></label><input type="password"  required="required" name="MotDepassse" id="pwd" placeholder="Veuillez entrer votre mot de passe" size="40" maxlength="50" border-radius="2px"/> <Br /><Br />
-                    <Br/><Br/><em><button type = "submit" name="Connexion" style="margin-left:50%;" >Connexion</button>
+                  <label for="email">Email<strong style="color:red">*&nbsp;</strong></label><input type="email" name="email" id="" required="required" placeholder="example TAMINI.Yves@gmail.com" size="40" maxlength="50" border-radius="2px"/> <Br /><Br />
+                    <label for="MotDePasse">Mot de passe<strong style="color:red">*&nbsp;</strong></label><input type="password"  required="required" name="MotDepassse" id="pwd" placeholder="Veuillez entrer votre mot de passe" size="40" maxlength="50" border-radius="2px"/> <Br /><Br />
+                    <Br/><Br/><em><button type = "submit" name="Connexion" style="margin-left:20%;" >Connexion</button>
                  </p>
             <form />
           </div>

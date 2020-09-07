@@ -50,42 +50,42 @@ else {
  </head>
  <body>
     <footer class="sdfooter">
-<!--<h1 id="contact">Formulaire de contact</h1>
+      <!--<h1 id="contact">Formulaire de contact</h1>
 
-  <form method="post" action="footer.php">
-  <p>Objet:<br /><input type="text" name="subject" /></p>
-  <p>Message:<br /><textarea name="message"></textarea></p>
-  <input type="submit" value='envoyer un mail'>
-  </form>-->
-        	
-   <form method="post" target="" id="dfooter">
+        <form method="post" action="footer.php">
+        <p>Objet:<br /><input type="text" name="subject" /></p>
+        <p>Message:<br /><textarea name="message"></textarea></p>
+        <input type="submit" value='envoyer un mail'>
+        </form>-->
+              	
+    <form method="post" target="" id="dfooter">
     
-<fieldset>
-<legend><h3>Formulaire de contact</h3></legend>
-<label for="email"><strong>Email* :</strong></label><input type="text" name="email" id="email" value="<?php if(isset($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>" /><br/>
-<label for="message"><strong>Message* :</strong></label><textarea name="message" rows="7" cols="60"  maxlength="200" border-radius="20px"id="message"><?php if(isset($_POST['message'])) echo htmlspecialchars($_POST['message']); ?></textarea><br/>
-<input type="submit" value="Envoyer" /> <span style="color:white;"><?php echo $erreur; ?></span><span style="color:green"><?php echo $info;?></span>
-</fieldset>
+      <fieldset>
+      <legend><h3>Formulaire de contact</h3></legend>
+      <label for="email"><strong>Email* :</strong></label><input type="text" name="email" id="email" value="<?php if(isset($_POST['email'])) echo htmlspecialchars($_POST['email']); ?>" /><br/>
+      <label for="message"><strong>Message* : <br/></strong></label><textarea name="message" rows="7" cols="60"  maxlength="200" border-radius="20px"id="message"><?php if(isset($_POST['message'])) echo htmlspecialchars($_POST['message']); ?></textarea><br/>
+      <br/><input type="submit" value="Envoyer" /> <span style="color:white;"><?php echo $erreur; ?></span><span style="color:green"><?php echo $info;?></span>
+      </fieldset>
   
-</form>
+    </form>
          <!-- <p >&nbsp;tel: <a href="tel:+212626491326">+212626491326</a> <br/> mail:<a href="mailto:desire.sanoupro@gmail.com" style="font-color:gray;">envoyer un mail</a></p>
-        
+              
 
 
-         <?php
+               <?php
 
-  // Recipient (change to your e-mail address)
- // $strEmail = "desire.sanoupro@gmail.com";
+        // Recipient (change to your e-mail address)
+       // $strEmail = "desire.sanoupro@gmail.com";
 
-  // Get user inputs
- // $strSubject = $_POST['subject'];
- // $strMessage = $_POST['message'];
+        // Get user inputs
+       // $strSubject = $_POST['subject'];
+       // $strMessage = $_POST['message'];
 
-  //mail($strEmail,$strSubject,$strMessage);
-  //echo "Mail envoye";
+        //mail($strEmail,$strSubject,$strMessage);
+        //echo "Mail envoye";
 
 
-  ?> -->
-    </footer>
-    </body>
-    </html>
+        ?> -->
+  </footer>
+  </body>
+</html>

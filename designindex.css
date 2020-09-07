@@ -20,7 +20,7 @@ ul{
 		display:flex;
 
 	}
-	.elemententete
+.elemententete
 {
 	width: 100%;
 	height: 68px;
@@ -28,7 +28,7 @@ ul{
 	margin-bottom: 20px;
 	border: solid rgba(242,109,79,1) hidden;
 	border-radius: 2px;
-	background-color: rgba(242,109,79,1);
+	background-color: rgba(242,109,79,0);
 	/*position: fixed;
      top: 0%;*/
      
@@ -38,102 +38,110 @@ ul{
 nav a{
 		font: bold  12pt;
 		font-family: helvetica arial sans-serif;
-		 border-top: solid 5px #800000;
-           display: flex;
-           height: 25px;
-           /*border-radius: 20px;*/
-           padding-top: 20px;
-           margin-right:1.5px;
-           position: relative;
-           color: #606060;
-           /*transform-origin: 50% 50%;*/
-          text-decoration: none;
-          clear: none;
-           transition: all 0.5s ease;
+		border-top: solid 5px #800000;
+		display: flex;
+		height: 25px;
+		/*border-radius: 20px;*/
+		padding-top: 20px;
+		margin-right:1.5px;
+		position: relative;
+		color: #606060;
+		/*transform-origin: 50% 50%;*/
+        text-decoration: none;
+        clear: none;
+        transition: all 0.5s ease;
 }
 nav a:hover{
            display: flex;
-           border: solid 1px gray;
-           border-left: solid 5px #800000;
+           border: hidden 5px #800000;
+           border-top: solid 5px #800000;
            border-radius: 10px;
-           padding: 20px;
+           padding: 18px;
            color: #DB4F4F ;
-           background-color: rgb(89,94,140);
+           background-color: rgba(89,94,140,0);
            box-shadow: 1px;
            transform-origin: 0% 0%;
-          text-decoration: none;
+           text-decoration: none;
            clear: both;
            transition: all 0.5s ease;
 
 	}
-	nav>a:first-child{
-		padding-top: 0px;
-		background-image: "imagesprojet/logomitdem.jpg"
-
-	}
-	nav>a:last-child{
-		position: absolute;
- 	    right:5%;
- 	    border-radius: 0px;
-          padding-top: 5px;
-		font: bold  12pt;
-		font-family: helvetica arial sans-serif;
-		 border-top: solid 0px #800000;
+nav a:active{
            display: flex;
-           height: 25px;
-          text-decoration: none;
-          clear: none;
-
-	}
-	nav>a:first-child:hover{
-           border: hidden 1px red;
-            background-color: rgba(242,109,79,1);
+           border: hidden 5px #800000;
            border-top: solid 5px #800000;
-           border-left: solid 5px #800000;
-           border-radius: 2px;
-           padding: 4px;
+           border-radius: 5px;
+           padding: 18px;
            color: #DB4F4F ;
-      
-           box-shadow: 0.2px;
-           transform-origin: 0% 0%;
-          text-decoration: none;
-           clear: both;
-           transition: all 0.5s ease;
-      
+           background-color: rgba(89,94,140,0);
 	}
-	nav>a:last-child:hover{
-           position: absolute;
- 	    right:5%;
- 	    background-color: rgba(242,109,79,1);
- 	    border-radius: 0px;
-          padding-top: 5px;
-		font: bold  12pt;
-		color: #DB4F4F ;
-		font-family: helvetica arial sans-serif;
-		 border-top: solid 0px #800000;
-           border-left: solid 0px #800000;
-           display: flex;
-           height: 25px;
-           box-shadow: none;
-           transform-origin: none;
-          text-decoration: none;
-           clear: both;
-           transition: all 0.8s ease;
-      
-	}
+nav>a:first-child{
+	padding-top: 0px;
+	background-image: "imagesprojet/logomitdem.jpg"
 
-	.inscrit /*design inscription*/
- {
-	{
+	}
+nav>a:last-child{
+	position: absolute;
+	    right:5%;
+	    border-radius: 0px;
+    padding-top: 0px;
+	font: bold  12pt;
+	font-family: helvetica arial sans-serif;
+	border-top: solid 0px #800000;
+    display: flex;
+    height: 25px;
+    text-decoration: none;
+    clear: none;
+
+}
+nav>a:first-child:hover{
+       border: hidden 1px red;
+       background-color: rgba(242,109,79,0);
+       border-top: solid 5px #800000;
+       border-left: hidden 5px #800000;
+       border-radius: 2px;
+       padding: 4px;
+       color: #DB4F4F ;
+  
+       box-shadow: 0.2px;
+       transform-origin: 0% 0%;
+      text-decoration: none;
+       clear: both;
+       transition: all 0.5s ease;
+  
+}
+nav>a:last-child:hover{
+    position: absolute;
+	    right:5%;
+	    background-color: rgba(242,109,79,0);
+	    border-radius: 0px;
+    padding-top: 1px;
+	font: bold  12pt;
+	color: #DB4F4F ;
+	font-family: helvetica arial sans-serif;
+	border-top: solid 0px #800000;
+    border-left: solid 0px #800000;
+    display: flex;
+    height: 25px;
+    box-shadow: none;
+    transform-origin: none;
+    text-decoration: none;
+    clear: both;
+    transition: all 0.8s ease;
+  
+}
+
+.inscrit /*design inscription*/
+{
 		
-		text-decoration: none;
-		display: inline-block;
-		position: absolute;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
  	right:240px;
  	margin-right: 10px;
 	}
 	
-	 .rech   /*design barre de recherche*/
+.rech   /*design barre de recherche*/
  {
  	position: absolute;
  	right:10px;
@@ -181,9 +189,9 @@ nav a:hover{
 }
 .inscriform   /*pour formulaire d'inscription*/
 {
-   width: 50%;
+   width: 100%;
    border: solid 0.5px gray;
-   border-radius:0px 20px 20px 0px;
+   border-radius:20px 20px 20px 20px;
 	background-color: white ;/*#e0e0e0 */
 	padding-left: 5px;
 	margin-right: 20px;
@@ -192,6 +200,7 @@ nav a:hover{
 input   /*input du formulaire et de la barre de recherche*/
 {
 	    background-color: #e8dede;
+
 	    background-size: 160px;
 }
 
@@ -200,10 +209,16 @@ input   /*input du formulaire et de la barre de recherche*/
  {
 
  	position: absolute;
- 	text-align:center;
- 	 margin-top: 10px;    font-family: Geneva, Arial, Helvetica, sans-serif;    color: rgba(205,205,203,1);    font-size: 12px;                background-color: rgba(173,47,19,1);    border-top: 5px solid rgba(173,47,19,1);               border-radius:3px ;
+ 	text-align:left;
+ 	margin-top: 10px;    
+ 	font-family: Geneva, Arial, Helvetica, sans-serif;    
+ 	color: rgba(173,47,19,1); /*rgba(205,205,203,1);*/    
+ 	font-size: 12px; 
+ 	background-color: rgba(173,47,19,0);    
+ 	border-top: 5px solid rgba(173,47,19,1);               
+ 	border-radius:3px ;
      /*margin-bottom: 0px;*/
- width: 100%;
+    width: 80%;
  /*bottom:0px;*/
  }
  
@@ -264,7 +279,7 @@ border-bottom: solid 2pt hidden;
  
 /*pour regrouper les deux elements ci-dessus*/
  aside{
-  background-attachment: fixed; background-image:url("./imagesprojet/fond3.jpg");  background-repeat: repeat; 
+  /*background-attachment: fixed; background-image:url("./imagesprojet/fond3.jpg");  background-repeat: repeat;*/
  }
  }
 
@@ -339,9 +354,9 @@ max-height:30em;
 }
 /*background des liens menus */
 .menu-demo2 li{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+background-color: rgba(135,129,128,1);#65537A;
+/*background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%); */
 }
 
 /* background des liens sous menus */

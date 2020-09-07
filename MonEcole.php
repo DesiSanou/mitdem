@@ -11,7 +11,7 @@
  	<?php include("entete.php") ?>
  	<div class="rechtrouverecole">
      <p> <h3 style="font-color:red;font-size:22px; background-color:#CF5513;">Entrez les informations</h3>
-     	<img src="imagesprojet/image2.jpg" alt="image recherche" width="150px" height="50px">&nbsp;<span style="font-family:Helvetica Geneva sans-serif;font-size:14px;"> <b>Aidez-moi a vous presenter les meilleurs resultats disponibles en entrant les informations detaillees.</b><span></p>
+     	<img src="imagesprojet/image2.jpg" alt="image recherche" width="150px" height="50px"></p>
       <section style="width:15%">
                         &nbsp&nbsp&nbsp&nbsp&nbspDans quel(s) pays souhaitez-vous vous inscrire?</br>
                     
@@ -22,13 +22,13 @@
                         <label for="pays"></label><input type="checkbox" name="pays" id=""  />Canada<Br />
                         <label for="pays"></label><input type="checkbox" name="pays" id=""  /> Belgique<Br />-->
                       <ul >
-                       <li><a href="universites/Afrique.php#burkina" target="_blank">Burkina</a><hr/></li>
-                       <li><a href="Afrique.php#senegal" target="_blank">Senegal</a><hr/></li>
-                       <li><a href="Europe.php#france" target="_blank">France</a><hr/></li>
-                       <li><a href="#Afrique.php#maroc" target="_blank">Maroc</a><hr/></li>
-                       <li><a href="Amerique.php#canada" target="_blank">Canada</a><hr/></li>
-                      <li><a href="Europe.php#belgique" target="_blank">Belgique</a><hr/></li>
-                      <li><a href="Europe.php#usa" target="_blank">USA</a><hr/></li>
+                       <li><a href="universites/Afrique.php#burkina" target="_blank">Burkina</a></li>
+                       <li><a href="Afrique.php#senegal" target="_blank">Senegal</a></li>
+                       <li><a href="Europe.php#france" target="_blank">France</a></li>
+                       <li><a href="#Afrique.php#maroc" target="_blank">Maroc</a></li>
+                       <li><a href="Amerique.php#canada" target="_blank">Canada</a></li>
+                      <li><a href="Europe.php#belgique" target="_blank">Belgique</a></li>
+                      <li><a href="Europe.php#usa" target="_blank">USA</a></li>
                    </ul>
                       </section>
                         <br/>
@@ -69,7 +69,7 @@
               </br>
              </br><hr/> <hr/>
              <h3 style="background-color:#CF5513;color:black; padding-left:0; font-size:20;text-align:left; margin-left:0px;">
-                <strong >Integrez les meilleures ecoles et universites a travers le monde!</strong></h3>
+                <strong >Intégrez les meilleures écoles et universités à travers le monde!</strong></h3>
         <div style="display:flex;">
              <section style="display:block; width:50%; border-right:solid gray 3px;">
                <hr/>

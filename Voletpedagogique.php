@@ -49,7 +49,7 @@
                    </ul>
                  </li>
 
-                  <li><span style="color:rgb(230,230,250);">Branche4<hr/></span>
+                  <li><span style="color:rgb(230,230,250);">&nbsp;&nbsp;&nbsp;Branche 4&nbsp;&nbsp;&nbsp;<hr/></span>
                     <ul>
                        <li><a href="#">module 1</a><hr/></li>
                        <li><a href="#">module 2</a><hr/></li>
@@ -60,7 +60,7 @@
                       <li><a href="#">module 7</a><hr/></li>
                     </ul>
                  </li>
-                  <li><span style="color:rgb(230,230,250);">Branche5<hr/></span>
+                  <li><span style="color:rgb(230,230,250);">&nbsp;&nbsp;&nbsp;Branche 5&nbsp;&nbsp;&nbsp;<hr/></span>
                      <ul>
                        <li><a href="#">module 1</a><hr/></li>
                        <li><a href="#">module 2</a><hr/></li>
@@ -71,7 +71,7 @@
                       <li><a href="#">module 7</a><hr/></li>
                      </ul>
                  </li>
-                 <li><span style="color:rgb(230,230,250);">Branche6<hr/></span>
+                 <li><span style="color:rgb(230,230,250);">&nbsp;&nbsp;&nbsp;Branche 6&nbsp;&nbsp;&nbsp;<hr/></span>
                       <ul>
                        <li><a href="#">module 1</a><hr/></li>
                        <li><a href="#">module 2</a><hr/></li>
@@ -84,6 +84,7 @@
                  </li>  
                           
         </ul>
+        <p style="height: 250px"></p>
 
         <h1 style="color:white;font-size:22px; background-color:#CF5513;">Elements recemment ajoutes</h1>
 
